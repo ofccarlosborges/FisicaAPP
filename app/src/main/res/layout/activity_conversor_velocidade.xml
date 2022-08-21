@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Conversor.Conversor_velocidade"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/bg_header">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/segoeui"
+            android:gravity="center_horizontal"
+            android:text="Conversor de Velocidade"
+            android:textColor="#FFFFFF"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Spinner
+        android:id="@+id/escolhaConversor"
+        style="@style/Widget.AppCompat.Spinner.DropDown"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center|center_vertical|center_horizontal"
+        android:gravity="center|center_vertical|center_horizontal"
+        android:background="@drawable/bg_escolha"
+        android:entries="@array/ConverterVelocidade"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:layout_gravity="center|center_horizontal|center_vertical">
+
+        <Spinner
+            android:id="@+id/escolhaConverterDe"
+            style="@style/Widget.AppCompat.Spinner.DropDown"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/bg_escolha"
+            android:entries="@array/ConverterVelocidade"
+            android:gravity="center|center_vertical"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutConversor"
+            style="@style/Widget.Design.TextInputLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_input_text"
+            android:ems="10"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:hint="Valor"
+            android:scrollbarStyle="insideInset"
+            app:hintEnabled="true">
+
+            <EditText
+                android:id="@+id/editTextConverter2"
+                style="@android:style/Widget.EditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="center|center_horizontal"
+                android:inputType="numberDecimal"
+                android:textColorHint="@color/corPreto" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:layout_gravity="center|center_horizontal|center_vertical">
+
+        <Spinner
+            android:id="@+id/escolhaConverterPara"
+            style="@style/Widget.AppCompat.Spinner.DropDown"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/bg_escolha"
+            android:entries="@array/ConverterVelocidade"
+            android:gravity="center|center_vertical"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center" />
+
+
+        <TextView
+            android:id="@+id/Resultconversor2"
+            android:layout_width="0dp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:background="@color/cardColor"
+            android:ems="10"
+            android:gravity="center"
+            android:textColor="#252525"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

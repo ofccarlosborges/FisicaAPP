@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="textColor">#2D4B5E</color>
+
+    <color name="corBrancoTransparente">#cccccc</color>
+    <color name="corBranco">#FFFFFF</color>
+    <color name="cororTransparente">#00000000</color>
+    <color name="corAmarelo">#fecd02</color>
+    <color name="cardColor">#24E11D</color>
+    <color name="cororCeleste">#05aaf6</color>
+    <color name="corVermelho">#f44337</color>
+    <color name="corVerde">#29c96b</color>
+    <color name="corLaranja">#ff9802</color>
+    <color name="corLilas">#cc35cc</color>
+    <color name="corMarron">#894802</color>
+    <color name="corLima">#81c10a</color>
+    <color name="corVermelhoEscuro">#ae0101</color>
+    <color name="corRosa">#ff028d</color>
+    <color name="corVerdeEscuro">#0b7855</color>
+    <color name="corAzul">#0a3782</color>
+    <color name="corPreto">#000000</color>
+    <color name="corRoxo">#673AB7</color>
+    <color name="corCard">#2EA12A</color>
+
+
+
+
+
+</resources>

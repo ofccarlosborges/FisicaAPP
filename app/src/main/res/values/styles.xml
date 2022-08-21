@@ -1,0 +1,38 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Design.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Fullscreen" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowFullscreen">true
+        </item>
+    </style>
+
+<style name="textColor">
+    <item name="android:textColor">@color/textColor</item>
+</style>
+
+    <style name="spinneOpicao">
+        <item name="android:background">@drawable/bg_escolha</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginStart">50dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginEnd">50dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:spinnerMode">dropdown</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="cardConverso">
+        <item name="background">@drawable/bg_card_conversor</item>
+
+
+    </style>
+</resources>

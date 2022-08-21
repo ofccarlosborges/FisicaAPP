@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fisicaapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".teste3"
+            android:label="@string/title_activity_teste3"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".TelaCinematica.MovimentoObliquo.MovimentoObliquo" />
+        <activity android:name=".list_view_items" />
+        <activity android:name=".inicial2" />
+        <activity android:name=".TelaDinamica.ForcaElastica" />
+        <activity android:name=".Conversor.conversor2" />
+        <activity android:name=".TelaDinamica.TelaDinamica" />
+        <activity android:name=".Conversor.ConversorDeUnidades" />
+        <activity android:name=".Somatorio.Somatorio" />
+        <activity android:name=".Cronometro.Cronometro" />
+        <activity android:name=".Conversor.Conversor_temperatura" />
+        <activity android:name=".Conversor.Conversor_comprimento" />
+        <activity android:name=".Conversor.Conversor_velocidade" />
+        <activity android:name=".Conversor.Conversor_tempo" />
+        <activity android:name=".TelaCinematica.MovimentoVertical.MovimentoVertical" />
+        <activity android:name=".TelaCinematica.MUV.Torricelli" />
+        <activity android:name=".TelaCinematica.MUV.FHP" />
+        <activity android:name=".TelaCinematica.MUV.FHV" />
+        <activity android:name=".TelaCinematica.MUV.MUV" />
+        <activity android:name=".TelaCinematica.MU.MU" />
+        <activity android:name=".PenduloSimples.PenduloSimples" />
+        <activity android:name=".TelaCinematica.VelocidadeMedia.TelaVeloMedia" />
+        <activity android:name=".TelaCinematica.TelaCinematica" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/AppTheme.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">Física APP</string>
+
+    <string name="cinematica">Cinematica</string>
+    <string name="dinamica">Dinamica</string>
+    <string name="pendulo">Pendulo Simples</string>
+    <string name="conversor">Conversor de Medidas</string>
+
+    <!--Cinematica-->
+    <string name="velomedia">Velocidade Média</string>
+    <string name="mu">Movimento Retílineo Uniforme</string>
+    <string name="muv">MRUV</string>
+    <string name="MRUV">Movimento Retílineo
+        Uniformemente Variado</string>
+    <string name="movivertical">Movimento Vertical</string>
+    <string name="moviobliquo">Movimento Obliquo</string>
+    <string name="movicirular">Movimento circular</string>
+
+    <string-array name="escolhaFHV">
+        <item>Selecione opção</item>
+        <item>Velocidade</item>
+        <item>Velocidade Inicial</item>
+        <item>Tempo</item>
+        <item>Aceleração</item>
+    </string-array>
+
+    <string-array name="escolhaTorricelli">
+        <item>Selecione opção</item>
+        <item>Velocidade</item>
+        <item>Velocidade Inicial</item>
+        <item>Aceleração</item>
+        <item>Posição</item>
+    </string-array>
+
+    <string-array name="escolhaFHP">
+        <item>Selecione opção</item>
+        <item>Posição Inicial</item>
+        <item>Velocidade Inicial</item>
+        <item>Aceleração</item>
+        <item>Tempo</item>
+    </string-array>
+
+
+    <string-array name="escolhaObliquo">
+        <item>Selecione opção</item>
+        <item>Velocidade inicial em x</item>
+        <item>Velocidade inicial em y</item>
+        <item>Alcance Máximo</item>
+        <item>Altura Máxima</item>
+        <item>Tempo de subida/queda</item>
+
+    </string-array>
+    <!--Final CInematic-->
+
+
+    <string-array name="VeloMediaEMU">
+        <item>Selecione opção</item>
+        <item>Velocidade</item>
+        <item>Posição</item>
+        <item>Tempo</item>
+    </string-array>
+
+    <!-- Arrays Conversão -->
+
+    <string-array name="EscolhaConverter">
+        <item>Selecione opção</item>
+        <item>Tempo</item>
+        <item>Velocidade</item>
+        <item>Comprimento</item>
+        <item>Temperatura</item>
+    </string-array>
+
+    <string-array name="ConverterTempo">
+        <item>Milissegundo</item>
+        <item>Segundo</item>
+        <item>Minuto</item>
+        <item>Hora</item>
+    </string-array>
+
+    <string-array name="ConverterTemperatura">
+        <item>Grau Celsius</item>
+        <item>Grau Fahrenheit</item>
+        <item>Kelvim</item>
+        <item>Rankine</item>
+    </string-array>
+
+    <string-array name="ConverterVelocidade">
+        <item>Converter de…</item>
+        <item>m/s para km/h</item>
+        <item>km/h para m/s</item>
+        <item>cm/s para m/s</item>
+        <item>cm/s para km/h</item>
+    </string-array>
+
+    <string-array name="ConverterVelocidade2">
+        <item>cm/s</item>
+        <item>m/s</item>
+        <item>km/h</item>
+    </string-array>
+
+    <string-array name="ConverterComprimento">
+        <item>Converter de…</item>
+        <item>Milímetro</item>
+        <item>Centímetro</item>
+        <item>Metro</item>
+    </string-array>
+    <!-- Final Arrays Conversão -->
+
+    <string-array name="escolhaMV">
+        <item>Selecione opção</item>
+        <item>Tempo de Subida</item>
+        <item>Altura máxima</item>
+    </string-array>
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="converter">Converter</string>
+    <string name="o_valor_convertido">O valor convertido é:</string>
+    <string name="cronometro">Cronometro</string>
+
+    <string-array name="EscolhaPenduloSimples">
+        <item>Escolha opção…</item>
+        <item>Período</item>
+        <item>Comprimento do fio</item>
+        <item>Aceleração</item>
+    </string-array>
+    <string name="title_activity_teste3">teste3</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>
